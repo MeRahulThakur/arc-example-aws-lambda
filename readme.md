@@ -15,7 +15,15 @@ Then install the development dependencies for the `post-hello` function...
 cd src/http/post-hello && npm i
 ```
 
-To create environment variables using CLI
+Finally, run the sandbox...
+
+```
+arc sandbox
+```
+
+Browse to http://localhost:3333, marvel and the wonders of serverless frameworks
+
+## To create environment variables using CLI
 ```
 arc env [testing|staging|production] {VARIABLE_NAME} {VARIABLE_VALUE}
 ```
@@ -34,14 +42,6 @@ To remove environment variable
 arc env remove testing API_KEY
 ```
 
-
-Finally, run the sandbox...
-
-```
-arc sandbox
-```
-
-Browse to http://localhost:3333, marvel and the wonders of serverless frameworks
 
 ## Deploy to AWS
 
