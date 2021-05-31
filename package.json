@@ -1,0 +1,13 @@
+{
+    "name": "test-api",
+    "version": "0.0.0",
+    "description": "A fresh new Architect project!",
+    "scripts": {
+        "deploy": "AWS_PROFILE=default AWS_REGION=ap-south-1 arc-deploy",
+        "start": "NODE_ENV=testing AWS_PROFILE=default AWS_REGION=ap-south-1 arc-sandbox"
+    },
+    "devDependencies": {
+        "@architect/architect": "^8.6.0"
+    },
+    "dependencies": {}
+}
