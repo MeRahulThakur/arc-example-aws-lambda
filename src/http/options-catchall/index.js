@@ -1,4 +1,4 @@
-exports.handler = (event) => {
+exports.handler =  async (event) => {
     return {
         statusCode: 204,
         headers: {
