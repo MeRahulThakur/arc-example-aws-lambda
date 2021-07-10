@@ -4,6 +4,7 @@ test-api
 @http
 get /
 post /hello
+options /hello
 
 # @aws
 # profile default
